@@ -1,7 +1,7 @@
 provider "aws" {
    region     = var.location
-   access_key = "AKIAZ7B6HP5UCRCTKJAQ"
-   secret_key = "vKHVPf8DzpePB6u6tv50bz2LIKZ6fIuQFU94nZgu"
+   access_key = "your access key"
+   secret_key = "your secret key"
 }
 
 resource "aws_instance" "ec2_example" {
